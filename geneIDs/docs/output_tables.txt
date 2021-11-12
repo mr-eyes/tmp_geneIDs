@@ -1,0 +1,21 @@
+Table 1: Basic statistics of HGNC, NCBI and GENCODE
+results/geneLists_reports/{HGNC,NCBI,Gencode}.geneLists_report.txt  (section "2. Basic statistics")
+
+Table 2: Ambiguity statistics of different gene symbol categories
+results/venDiagram_reports/{HGNC,NCBI,Gencode}.VennDiagram_report.txt 
++ results/geneLists_reports/{HGNC,NCBI,Gencode}.geneLists_report.txt  (section "4. Tracking of replaced HGNC IDs")
+
+Table 3: Coverage of external cross-references in HGNC, NCBI and GENCODE
+results/crossRef_stats.txt
+
+Table 4: The one-to-many cross-referencing incidents in HGNC, NCBI and GENCODE
+results/crossRef_stats.txt  (reports for all incidents are in crossRef_many but not reported in tables)
+
+Table 5: Examples of inconsistent one-to-many relationships across HGNC, NCBI and GENCODE 
+results/crossRef_inconsistent
+
+Tables 6 and 7 & Tables 8 and 9
+results/crossRef_pairwise
+
+Tables 10 and 11
+results/crossRef_discontinued

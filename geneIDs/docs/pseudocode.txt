@@ -1,0 +1,28 @@
+## *.createGeneLists.sh
+1. Download 1ry datasets 
+   & curate "current master" & "history tracking" files (for NCBI and Ensembl)
+2. Generate maps of gene IDs to symbols
+3. Generate lists of gene symbols
+4. Basic QC check
+5. Basic statistics
+6. check for repeated symbols within the same gene record 
+7. Tracking of replaced IDs
+
+
+## *.assessAmbiguity.sh
+1. Identify shared genes between every two possible groups
+2. Calc rate of ambiguity "*.ambiguous_freq.txt" & prep DB of ambiguous gene symbols
+
+## exploreMasterFiles.sh
+1. generate some stats about "current master" files
+
+## crossRef.sh
+1. Simplify the master file & generate some stats
+2. Generate 3 pairwise maps from each catalog
+3. count one-to-many relationships
+4. extract one-to-many records 
+5. identify cross reference inconsistency for each pairwise map
+6. identify Pairwise discrepancies between each pair of databases
+7. cross-referencing to discontinued ID
+
+
